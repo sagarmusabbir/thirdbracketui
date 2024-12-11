@@ -63,8 +63,11 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="docs" className={styles.secondary}>
+        {/* <Button appName="docs" className={styles.secondary}>
           Open alert
+        </Button> */}
+        <Button variant="framed" size="md">
+          Click Me
         </Button>
       </main>
       <footer className={styles.footer}>
